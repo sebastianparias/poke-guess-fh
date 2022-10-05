@@ -22,3 +22,9 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+Section 7
+custom events:
+this.$emit('myEvent')
+<component @my-event="doSomething"/>

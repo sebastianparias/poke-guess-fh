@@ -27,6 +27,7 @@ export default {
     /* Pokemon Options */
 ul {
     list-style-type: none;
+    margin-top: 20%;
 }
 
 li {
@@ -36,10 +37,12 @@ li {
     cursor: pointer;
     margin-bottom: 10px;
     width: 250px;
+    font-weight: bold;
 }
 
 li:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
 .options-container {

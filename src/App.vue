@@ -1,5 +1,4 @@
 <template>
-  <!-- <div style="max-width: 50vw; max-height: 50vh; background-color: white;"> -->
     <PokemonPage />
 </template>
 
@@ -23,9 +22,5 @@ export default {
   color: #2c3e50;
   padding: 1em;
 
-}
-
-body{
-  background-image: url('./assets/pokemon2.jpg');
 }
 </style>

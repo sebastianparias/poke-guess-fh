@@ -1,7 +1,7 @@
 <template>
     <h1 v-if="!pokemon" style="color: white;">Loading...</h1>
 
-    <div v-else id="card">
+    <div v-else id="card" class="">
         <h1 class="three-d">Who is this pokemon?</h1>
 
         <!-- img -->
@@ -82,7 +82,7 @@ export default {
     text-transform: uppercase;
     font-family: verdana;
     font-weight: 700;
-    color: rgb(250,211,84);
+    color: rgb(250, 211, 84);
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
@@ -119,12 +119,16 @@ export default {
     margin-top: 3%;
 }
 
-#card{
+#card {
     /* background-color: rgb(222,235,217);  */
-    background-color: rgba(198,58,32, 0.85); 
+    background-color: rgba(198, 58, 32, 0.85);
     border-radius: 10px;
-    max-width: fit-content; 
-    margin: auto; 
+    max-width: fit-content;
+    margin: auto;
     padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>

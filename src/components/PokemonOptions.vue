@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-    background-color: white;
+    background-color: rgb(250,211,84);
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     cursor: pointer;

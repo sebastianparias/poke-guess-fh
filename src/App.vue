@@ -1,5 +1,5 @@
 <template>
-    <PokemonPage />
+  <PokemonPage />
 </template>
 
 <script>
@@ -21,6 +21,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   padding: 1em;
-
 }
 </style>

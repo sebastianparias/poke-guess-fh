@@ -1,5 +1,5 @@
 <template>
-    <h1 v-if="!pokemon" style="color: white;">Loading...</h1>
+    <h1 v-if="!pokemon" style="color: black;">Loading...</h1>
 
     <div v-else id="card" class="">
         <h1 class="three-d">Who is this pokemon?</h1>
